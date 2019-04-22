@@ -1,0 +1,402 @@
+{
+"skeleton": { "hash": "IWDXci0lEAO3ztB+co5VjbNwOoQ", "spine": "3.6.53", "width": 566, "height": 387.7, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Arm", "parent": "root", "length": 50, "rotation": -162.9, "x": -155, "y": -30 },
+	{ "name": "Body", "parent": "root", "length": 50, "rotation": 180, "x": -182 },
+	{ "name": "EarBottom", "parent": "root", "length": 50, "rotation": 155.4, "x": -63, "y": 70 },
+	{ "name": "EarTop", "parent": "root", "length": 50, "rotation": 156.6, "x": -90, "y": 49 },
+	{ "name": "Head", "parent": "root", "length": 50, "rotation": -179 },
+	{ "name": "Leg", "parent": "root", "length": 50, "rotation": -180, "x": -248, "y": -20 }
+],
+"slots": [
+	{ "name": "TeslaBulletBody", "bone": "Body", "attachment": "TeslaBulletBody" },
+	{ "name": "TeslaBulletEar", "bone": "EarBottom", "attachment": "TeslaBulletEar" },
+	{ "name": "TeslaBulletHead", "bone": "Head", "attachment": "TeslaBulletHead" },
+	{ "name": "TeslaBulletEar2", "bone": "EarTop", "attachment": "TeslaBulletEar" },
+	{ "name": "TeslaBulletLeg", "bone": "Leg", "attachment": "TeslaBulletLeg" },
+	{ "name": "TeslaBulletArm", "bone": "Arm", "attachment": "TeslaBulletArm" }
+],
+"skins": {
+	"default": {
+		"TeslaBulletArm": {
+			"TeslaBulletArm": { "x": 60.5, "y": 1, "rotation": 180, "width": 198, "height": 115 }
+		},
+		"TeslaBulletBody": {
+			"TeslaBulletBody": { "rotation": 180, "width": 262, "height": 170 }
+		},
+		"TeslaBulletEar": {
+			"TeslaBulletEar": { "x": 140, "y": 19, "rotation": 180, "width": 350, "height": 206 }
+		},
+		"TeslaBulletEar2": {
+			"TeslaBulletEar": { "x": 140, "y": 19, "rotation": 180, "width": 350, "height": 206 }
+		},
+		"TeslaBulletHead": {
+			"TeslaBulletHead": { "rotation": 179, "width": 280, "height": 254 }
+		},
+		"TeslaBulletLeg": {
+			"TeslaBulletLeg": { "x": 71, "y": -3.5, "rotation": 180, "width": 214, "height": 125 }
+		}
+	}
+},
+"animations": {
+	"die": {
+		"slots": {
+			"TeslaBulletArm": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{
+						"time": 0.2,
+						"color": "d40808ff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "color": "ff070000" }
+				]
+			},
+			"TeslaBulletBody": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{
+						"time": 0.2,
+						"color": "d40808ff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "color": "ff070000" }
+				]
+			},
+			"TeslaBulletEar": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{
+						"time": 0.2,
+						"color": "d40808ff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "color": "ff070000" }
+				]
+			},
+			"TeslaBulletEar2": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"color": "d40808ff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "color": "ff070000" }
+				]
+			},
+			"TeslaBulletHead": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{
+						"time": 0.2,
+						"color": "d40808ff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "color": "ff070000" }
+				]
+			},
+			"TeslaBulletLeg": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{
+						"time": 0.2,
+						"color": "d40808ff",
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "color": "ff070000" }
+				]
+			}
+		},
+		"bones": {
+			"Head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"angle": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "angle": 327.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 1318.69, "y": 560.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 3, "y": 3 }
+				]
+			},
+			"Arm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"angle": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "angle": 101.4 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 517.65, "y": -248.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 3, "y": 3 }
+				]
+			},
+			"Leg": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"angle": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "angle": 161.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 73.51, "y": -1501.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 3, "y": 3 }
+				]
+			},
+			"EarBottom": {
+				"rotate": [
+					{ "time": 0, "angle": -88.5, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"angle": -88.5,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "angle": -209.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": -833.08, "y": 1044.57 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 3, "y": 3 }
+				]
+			},
+			"EarTop": {
+				"rotate": [
+					{ "time": 0, "angle": -35.1, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"angle": -35.1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "angle": -165.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": -649.36, "y": 79.64 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 3, "y": 3 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"angle": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "angle": -199.8 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 300.17, "y": 220.54 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.003, 0.56, 0.668, 1 ]
+					},
+					{ "time": 1, "x": 3, "y": 3 }
+				]
+			}
+		}
+	},
+	"fly": {
+		"slots": {
+			"TeslaBulletArm": {
+				"color": [
+					{ "time": 0, "color": "fff6f6ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fff6f6ff" }
+				]
+			},
+			"TeslaBulletBody": {
+				"color": [
+					{ "time": 0, "color": "fff6f6ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fff6f6ff" }
+				]
+			},
+			"TeslaBulletEar": {
+				"color": [
+					{ "time": 0, "color": "fff6f6ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fff6f6ff" }
+				]
+			},
+			"TeslaBulletEar2": {
+				"color": [
+					{ "time": 0, "color": "fff6f6ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fff6f6ff" }
+				]
+			},
+			"TeslaBulletHead": {
+				"color": [
+					{ "time": 0, "color": "fff6f6ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fff6f6ff" }
+				]
+			},
+			"TeslaBulletLeg": {
+				"color": [
+					{ "time": 0, "color": "fff6f6ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fff6f6ff" }
+				]
+			}
+		},
+		"bones": {
+			"EarTop": {
+				"rotate": [
+					{ "time": 0, "angle": -6.3 },
+					{ "time": 0.1, "angle": -29.7 },
+					{ "time": 0.2, "angle": -6.3 }
+				]
+			},
+			"EarBottom": {
+				"rotate": [
+					{ "time": 0, "angle": -38.7 },
+					{ "time": 0.1, "angle": -67.2 },
+					{ "time": 0.2, "angle": -38.7 }
+				]
+			},
+			"Leg": {
+				"rotate": [
+					{ "time": 0, "angle": 347.4 },
+					{ "time": 0.1, "angle": 13.8 },
+					{ "time": 0.2, "angle": 347.4 }
+				]
+			},
+			"Arm": {
+				"rotate": [
+					{ "time": 0, "angle": 12.6 },
+					{ "time": 0.1, "angle": 333.9 },
+					{ "time": 0.2, "angle": 12.6 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

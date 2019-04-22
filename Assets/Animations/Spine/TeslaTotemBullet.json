@@ -1,0 +1,139 @@
+{
+"skeleton": { "hash": "YvtDaxzJYZoJyNA7ZO0xISv1lgk", "spine": "3.6.53", "width": 600.14, "height": 553.01, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Body", "parent": "root", "length": 80 },
+	{ "name": "WingBottom", "parent": "root", "length": 80, "rotation": 101.1, "x": 46, "y": 9, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "WingTop", "parent": "root", "length": 80, "rotation": 130.5, "x": 8, "y": 20 }
+],
+"slots": [
+	{ "name": "TeslaBulletTotemWing2", "bone": "WingBottom", "attachment": "TeslaBulletTotemWing" },
+	{ "name": "TeslaBulletTotemBody", "bone": "Body", "attachment": "TeslaBulletTotemBody" },
+	{ "name": "TeslaBulletTotemWing", "bone": "WingTop", "attachment": "TeslaBulletTotemWing" }
+],
+"skins": {
+	"default": {
+		"TeslaBulletTotemBody": {
+			"TeslaBulletTotemBody": { "x": -28, "y": 9, "width": 450, "height": 260 }
+		},
+		"TeslaBulletTotemWing": {
+			"TeslaBulletTotemWing": { "x": 192, "y": 33, "rotation": 180, "width": 518, "height": 245 }
+		},
+		"TeslaBulletTotemWing2": {
+			"TeslaBulletTotemWing": { "x": 192, "y": 33, "rotation": 180, "width": 518, "height": 245 }
+		}
+	}
+},
+"animations": {
+	"die": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0333, "angle": 90 },
+					{ "time": 0.0667, "angle": 180 },
+					{ "time": 0.1, "angle": -90 },
+					{ "time": 0.1333, "angle": 0 },
+					{ "time": 0.1667, "angle": 90 },
+					{ "time": 0.2, "angle": 180 },
+					{ "time": 0.2333, "angle": -90 },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				]
+			},
+			"WingBottom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"WingTop": {
+				"translate": [
+					{ "time": 0, "x": 26.48, "y": -22.7 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.8, "y": 0.8 }
+				]
+			}
+		}
+	},
+	"fly": {
+		"bones": {
+			"WingTop": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -12.3 },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 22.46, "y": -25.33 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": -0.8, "y": 0.8 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"WingBottom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 37.5 },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": -0.875, "y": 0.875 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 11.7 },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -10.31, "y": 20.62 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 1.005, "y": 1.1 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

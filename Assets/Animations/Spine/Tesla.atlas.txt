@@ -1,0 +1,76 @@
+
+Tesla.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+teslaArm
+  rotate: false
+  xy: 347, 236
+  size: 34, 10
+  orig: 34, 10
+  offset: 0, 0
+  index: -1
+teslaCoat
+  rotate: false
+  xy: 2, 18
+  size: 87, 50
+  orig: 87, 50
+  offset: 0, 0
+  index: -1
+teslaFoot
+  rotate: false
+  xy: 242, 104
+  size: 34, 19
+  orig: 34, 19
+  offset: 0, 0
+  index: -1
+teslaForearm
+  rotate: false
+  xy: 2, 2
+  size: 40, 14
+  orig: 40, 14
+  offset: 0, 0
+  index: -1
+teslaHand
+  rotate: false
+  xy: 297, 207
+  size: 32, 17
+  orig: 32, 17
+  offset: 0, 0
+  index: -1
+teslaHat
+  rotate: false
+  xy: 2, 70
+  size: 165, 176
+  orig: 165, 176
+  offset: 0, 0
+  index: -1
+teslaHead
+  rotate: false
+  xy: 169, 125
+  size: 126, 121
+  orig: 126, 121
+  offset: 0, 0
+  index: -1
+teslaShin
+  rotate: false
+  xy: 91, 57
+  size: 43, 11
+  orig: 43, 11
+  offset: 0, 0
+  index: -1
+teslaThigh
+  rotate: false
+  xy: 297, 226
+  size: 48, 20
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+teslaTorso
+  rotate: true
+  xy: 169, 80
+  size: 43, 71
+  orig: 43, 71
+  offset: 0, 0
+  index: -1

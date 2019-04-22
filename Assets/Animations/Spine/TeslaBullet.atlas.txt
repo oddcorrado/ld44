@@ -1,0 +1,41 @@
+
+TeslaBullet.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TeslaBulletArm
+  rotate: true
+  xy: 144, 30
+  size: 99, 58
+  orig: 99, 58
+  offset: 0, 0
+  index: -1
+TeslaBulletBody
+  rotate: false
+  xy: 179, 149
+  size: 131, 85
+  orig: 131, 85
+  offset: 0, 0
+  index: -1
+TeslaBulletEar
+  rotate: false
+  xy: 2, 131
+  size: 175, 103
+  orig: 175, 103
+  offset: 0, 0
+  index: -1
+TeslaBulletHead
+  rotate: false
+  xy: 2, 2
+  size: 140, 127
+  orig: 140, 127
+  offset: 0, 0
+  index: -1
+TeslaBulletLeg
+  rotate: false
+  xy: 312, 171
+  size: 107, 63
+  orig: 107, 63
+  offset: 0, 0
+  index: -1

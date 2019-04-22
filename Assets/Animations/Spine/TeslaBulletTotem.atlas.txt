@@ -1,0 +1,20 @@
+
+TeslaBulletTotem.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TeslaBulletTotemBody
+  rotate: false
+  xy: 263, 2
+  size: 225, 130
+  orig: 225, 130
+  offset: 0, 0
+  index: -1
+TeslaBulletTotemWing
+  rotate: false
+  xy: 2, 9
+  size: 259, 123
+  orig: 259, 123
+  offset: 0, 0
+  index: -1
