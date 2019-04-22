@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4F454CCE-5349-D6BD-9E96-9D7217EAF421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity", "spine-unity.csproj", "{CFD161A9-21A9-766E-FB69-F64D1FE68C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{27993B07-997B-3B3E-A1D7-DF9726EB0F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-editor", "spine-unity-editor.csproj", "{E2019451-B008-C9E6-4D7E-C20EB011B261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F454CCE-5349-D6BD-9E96-9D7217EAF421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F454CCE-5349-D6BD-9E96-9D7217EAF421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F454CCE-5349-D6BD-9E96-9D7217EAF421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F454CCE-5349-D6BD-9E96-9D7217EAF421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD161A9-21A9-766E-FB69-F64D1FE68C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD161A9-21A9-766E-FB69-F64D1FE68C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD161A9-21A9-766E-FB69-F64D1FE68C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD161A9-21A9-766E-FB69-F64D1FE68C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27993B07-997B-3B3E-A1D7-DF9726EB0F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27993B07-997B-3B3E-A1D7-DF9726EB0F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27993B07-997B-3B3E-A1D7-DF9726EB0F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27993B07-997B-3B3E-A1D7-DF9726EB0F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2019451-B008-C9E6-4D7E-C20EB011B261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2019451-B008-C9E6-4D7E-C20EB011B261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2019451-B008-C9E6-4D7E-C20EB011B261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2019451-B008-C9E6-4D7E-C20EB011B261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
