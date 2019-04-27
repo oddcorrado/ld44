@@ -36,7 +36,7 @@ public class Command : MonoBehaviour
     private float dateReady = 0;
     private bool prevInputCheck = false;
     private int playerId;
-    private AnimationManager animationManager;
+    private SpineAnimationManager animationManager;
 
     // Use this for initialization
 	protected void Start ()
@@ -45,7 +45,7 @@ public class Command : MonoBehaviour
         playerId = input.PlayerId;
         playerMovement = GetComponent<PlayerMovement>();
         playerMana = GetComponent<PlayerMana>();
-        animationManager = GetComponent<AnimationManager>();
+        animationManager = GetComponent<SpineAnimationManager>();
 	}
 	
     protected bool CheckConditions()

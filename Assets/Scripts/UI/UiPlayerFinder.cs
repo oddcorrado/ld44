@@ -44,11 +44,13 @@ public class UiPlayerFinder : MonoBehaviour {
 
     public void SetMana(int playerId, int mana)
     {
+        if (playerId > playerDisplays.Count) return;
         playerDisplays[playerId - 1].mana.text = "P" + playerId + " MANNA: " + mana;
     }
 
     public void SetLife(int playerId, int life)
     {
+        if (playerId > playerDisplays.Count) return;
         if(life <= 0) 
             playerDisplays[playerId - 1].mana.text = "P" + playerId + " MANNA: " + "DEAD";
         playerDisplays[playerId - 1].life.text = "P" + playerId + " LIFE: " + (life >= 0 ? life.ToString() : "DEAD");
