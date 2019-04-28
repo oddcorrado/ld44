@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Bag : MonoBehaviour
 {
     public int size = 3;
+    public Text gemText;
+    public UiGems uiGems;
     private List<string> gems = new List<string>();
     private LifeManager lifeManager;
 
@@ -18,6 +21,10 @@ public class Bag : MonoBehaviour
     {
         if (gems.Count >= size) return false;
         gems.Add(name);
+
+        uiGems.UpdateGems(gems);
+
+
         return true;
     }
 
