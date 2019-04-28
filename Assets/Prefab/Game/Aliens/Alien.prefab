@@ -95,7 +95,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cures:
   - value: 100
-    name: bidon
+    name: red
+  - value: 100
+    name: blue
+  - value: 100
+    name: yellow
+  - value: 100
+    name: green
 --- !u!61 &8233551977747070094
 BoxCollider2D:
   m_ObjectHideFlags: 0
