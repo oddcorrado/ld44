@@ -18,9 +18,10 @@ public class Gem : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject go = collision.gameObject;
-        LifeManager lm = go.GetComponent<LifeManager>();
+        Bag bag = go.GetComponent<Bag>();
 
-        Destroy(gameObject);
+        if (bag == null) return;
 
+        if (bag.AddGem("bidon")) Destroy(gameObject);
     }
 }
