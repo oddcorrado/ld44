@@ -9,12 +9,12 @@ public class UiGems : MonoBehaviour
 
     public void UpdateGems(List<string> gems)
     {
-        /* string gemString = "";
+        string gemString = "";
         gems.ForEach(gem =>
         {
             gemString = gemString + gem;
         });
 
-        gemText.text = gemString; */
+        displayText.text = gemString;
     }
 }

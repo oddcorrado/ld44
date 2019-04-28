@@ -19,6 +19,8 @@ public class MinerCamera : MonoBehaviour
     {
         Vector3 position = transform.position;
 
+        if (player == null) return;
+
         if(player.transform.position.x - transform.position.x < -offsetX)
         {
             position.x = player.transform.position.x + offsetX;
