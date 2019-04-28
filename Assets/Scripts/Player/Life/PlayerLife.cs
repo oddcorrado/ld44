@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(InputRouter))]
 public class PlayerLife : LifeManager {
@@ -10,7 +11,15 @@ public class PlayerLife : LifeManager {
         set
         {
             life = value;
-            UiPlayerFinder.Instance.SetLife(input.PlayerId, (int) value);
+            LifeText.text = ((int)life).ToString();
+
+            if (Life <= 0)
+            {
+                if (isDeactivate) gameObject.SetActive(false);
+                else Destroy(gameObject);
+            }
+
+            //UiPlayerFinder.Instance.SetLife(input.PlayerId, (int) value);
         }
     }
 
@@ -18,6 +27,7 @@ public class PlayerLife : LifeManager {
     private int lifeBase = 100;
     [SerializeField]
     private bool isDeactivate = false;
+    public Text LifeText;
 
     private InputRouter input;
 
