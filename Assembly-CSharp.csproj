@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraZoomer.cs" />
+    <Compile Include="Assets\Scripts\Game\Camera\MinerCamera.cs" />
     <Compile Include="Assets\Scripts\Game\FightManager.cs" />
     <Compile Include="Assets\Scripts\Game\LifeManager.cs" />
     <Compile Include="Assets\Scripts\Game\PersistentData.cs" />
