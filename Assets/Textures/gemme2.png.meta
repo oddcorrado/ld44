@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 32c2a8a2330fa4a45934c0bd11ac2670
+guid: 92778f60e587dee4a8b471088dd881bb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: gemme1_0
-    21300002: gemme1_1
-    21300004: gemme1_2
-    21300006: gemme1_3
+    21300000: gemme2_0
+    21300002: gemme2_1
+    21300004: gemme2_2
+    21300006: gemme2_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -50,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
-  spriteBorder: {x: 0, y: 0, z: 48, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gemme1_0
+      name: gemme2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,13 +113,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 533677fdaed158240bc98dded3dc15f9
+      spriteID: 9cfb9438b9109754f9e1602ff0d3b26a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gemme1_1
+      name: gemme2_1
       rect:
         serializedVersion: 2
         x: 16
@@ -133,13 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a62c977086cf894c884995f0f3ae1ff
+      spriteID: 710f1e77f7443c84a8fdbfab3488e860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gemme1_2
+      name: gemme2_2
       rect:
         serializedVersion: 2
         x: 32
@@ -153,13 +153,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4767a478a69c44fb85f8251d3fca9c
+      spriteID: 96299d6b5d674854ebff2ddaad46c4f6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gemme1_3
+      name: gemme2_3
       rect:
         serializedVersion: 2
         x: 48
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88aada1d416a9ed4fbe877c48bfd90d8
+      spriteID: c1454763a1173f441add8701656beacf
       vertices: []
       indices: 
       edges: []
@@ -181,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 21b8a73c39cf8964193cfd2b249be293
+    spriteID: e71ede1ce28c8cd46915144c0887e78a
     vertices: []
     indices: 
     edges: []
