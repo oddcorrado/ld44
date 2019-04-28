@@ -40,5 +40,6 @@ public class Bag : MonoBehaviour
         });
 
         lifeManager.Life = Mathf.Min(lifeManager.Life + totalCure, lifeManager.lifeMax);
+        uiGems.UpdateGems(gems);
     }
 }
