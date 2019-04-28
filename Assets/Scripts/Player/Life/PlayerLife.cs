@@ -12,6 +12,13 @@ public class PlayerLife : LifeManager {
         {
             life = value;
             LifeText.text = ((int)life).ToString();
+
+            if (Life <= 0)
+            {
+                if (isDeactivate) gameObject.SetActive(false);
+                else Destroy(gameObject);
+            }
+
             //UiPlayerFinder.Instance.SetLife(input.PlayerId, (int) value);
         }
     }
