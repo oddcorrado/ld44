@@ -9,13 +9,13 @@ public class MinerCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(0, 0, -126);
+        transform.position = new Vector3(player.transform.position.x, 0, -126);
         Debug.Log("player " + player.transform.position.x);
     }
 }
