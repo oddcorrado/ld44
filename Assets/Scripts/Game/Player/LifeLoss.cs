@@ -22,7 +22,6 @@ public class LifeLoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("player life " + playerLife.Life);
         playerLife.Life = playerLife.Life - LifeLossSpeed;
     }
 }
