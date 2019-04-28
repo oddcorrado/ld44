@@ -89,7 +89,7 @@ public class AnimatorAnimationManager : AnimationManager
             runningAnimation = Movement;
             int id = nameToId.FindIndex(n => n == Movement);
             if (id == -1) id = 0;
-            Debug.Log(">" + Movement + " id=" + id);
+            // Debug.Log(">" + Movement + " id=" + id);
             animator.SetInteger("animationId", id);
         }
     }

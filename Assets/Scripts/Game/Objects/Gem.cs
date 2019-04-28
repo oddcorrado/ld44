@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Gem : MonoBehaviour
 {
+    public string name = "bidon";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,6 @@ public class Gem : MonoBehaviour
 
         if (bag == null) return;
 
-        if (bag.AddGem("bidon")) Destroy(gameObject);
+        if (bag.AddGem(name)) Destroy(gameObject);
     }
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LifeManager : MonoBehaviour
 {
+    public int lifeMax = 100;
+
     protected float life;
     public virtual float Life
     {
