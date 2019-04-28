@@ -4,13 +4,13 @@ using UnityEngine;
 
 [RequireComponent(typeof(InputRouter))]
 public class PlayerLife : LifeManager {
-    public override int Life
+    public override float Life
     {
         get { return life; }
         set
         {
             life = value;
-            UiPlayerFinder.Instance.SetLife(input.PlayerId, value);
+            UiPlayerFinder.Instance.SetLife(input.PlayerId, (int) value);
         }
     }
 

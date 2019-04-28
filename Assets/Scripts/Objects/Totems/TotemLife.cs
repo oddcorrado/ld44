@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Totem))]
 public class TotemLife : LifeManager
 {
-    public override int Life
+    public override float Life
     {
         get { return life; }
         set

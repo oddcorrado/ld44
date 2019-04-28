@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LifeManager : MonoBehaviour
 {
-    protected int life;
-    public virtual int Life
+    protected float life;
+    public virtual float Life
     {
         get { return life; }
         set
