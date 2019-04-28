@@ -5,7 +5,7 @@ using UnityEngine;
 public class MinerCamera : MonoBehaviour
 {
     public GameObject player;
-
+    public float offset=3;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,9 +13,20 @@ public class MinerCamera : MonoBehaviour
     }
 
     // Update is called once per frame
+
     void Update()
     {
-        transform.position = new Vector3(player.transform.position.x, 0, -126);
-        Debug.Log("player " + player.transform.position.x);
-    }
+        if(player.transform.position.x-transform.position.x<-offset)
+        {
+            transform.position = new Vector3(player.transform.position.x+offset, 0, -126);
+            Debug.Log("player " + player.transform.position.x);
+
+        }
+        if(player.transform.position.x-transform.position.x>offset)
+        {
+            transform.position = new Vector3(player.transform.position.x-offset, 0, -126);
+            Debug.Log("player " + player.transform.position.x);
+        }
+     
+     }
 }
