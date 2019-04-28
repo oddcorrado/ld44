@@ -6,17 +6,12 @@ public class Bag : MonoBehaviour
 {
     public int size = 3;
     private List<string> gems = new List<string>();
+    private LifeManager lifeManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        lifeManager = GetComponent<LifeManager>();
     }
 
     public bool AddGem(string name)
@@ -26,11 +21,17 @@ public class Bag : MonoBehaviour
         return true;
     }
 
-    public void EmptyBag()
+    public void EmptyBag(Dictionary<string,int> rates)
     {
+        int totalCure = 0;
         gems.RemoveAll(gem =>
         {
+            int cure = 0;
+            rates.TryGetValue(gem, out cure);
+            totalCure += cure;
             return true;
         });
+
+        lifeManager.Life = Mathf.Min(lifeManager.Life + totalCure, lifeManager.lifeMax);
     }
 }
