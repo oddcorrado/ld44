@@ -15,8 +15,9 @@ public class PlayerLife : LifeManager {
 
             if (Life <= 0)
             {
-                if (isDeactivate) gameObject.SetActive(false);
-                else Destroy(gameObject);
+                GetComponent<AnimationManager>().Handicap = "die";
+                // if (isDeactivate) gameObject.SetActive(false);
+                // else Destroy(gameObject);
             }
 
             //UiPlayerFinder.Instance.SetLife(input.PlayerId, (int) value);

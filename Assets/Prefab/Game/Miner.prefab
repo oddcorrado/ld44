@@ -524,12 +524,12 @@ MonoBehaviour:
   - idle
   - run
   - jump
-  - air
   - die
   - 
   - 
   - 
-  prefix: Boing_
+  - 
+  prefix: Miner_
 --- !u!95 &9087528001971607477
 Animator:
   serializedVersion: 3

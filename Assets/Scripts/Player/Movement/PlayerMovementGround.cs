@@ -52,6 +52,7 @@ public class PlayerMovementGround : PlayerMovement
     // private fields
     PlayerCondition playerCondition;
     private AnimationManager animationManager;
+    private LifeManager lifeManager;
 
     new void Start()
     {
@@ -71,6 +72,9 @@ public class PlayerMovementGround : PlayerMovement
 
         animationManager = GetComponent<AnimationManager>();
         Debug.Assert(animationManager != null, "could not find animationManager");
+
+        lifeManager = GetComponent<LifeManager>();
+        Debug.Assert(lifeManager != null, "could not find lifeManager");
 
         Physics2D.gravity = Vector2.zero;
 
@@ -220,6 +224,8 @@ public class PlayerMovementGround : PlayerMovement
 
     void FixedUpdate()
     {
+        if (lifeManager.Life <= 0) return;
+
         var vel = body.velocity;
 
    
@@ -228,8 +234,8 @@ public class PlayerMovementGround : PlayerMovement
         vel = Jump(vel);
         vel = Dive(vel);
 
-        string runningAnim = "";
-        skeletonAnimation?.state?.Tracks.ForEach(t => runningAnim = t.Animation.Name);
+        // string runningAnim = "";
+        // skeletonAnimation?.state?.Tracks.ForEach(t => runningAnim = t.Animation.Name);
             
         prevJ = input.J;
         //Debug.Log(IsGrounded + "/" + IsWalled + "/" + IsWallDetached);

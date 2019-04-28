@@ -73,16 +73,20 @@ public class AnimatorAnimationManager : AnimationManager
 
     private void CheckAnimation()
     {
-        if (Command != null) return;
-
         if (Handicap != null && runningAnimation != Handicap)
         {
             runningAnimation = Handicap;
-            // Debug.Log(gameObject.name + " anim " + Handicap);
             int id = nameToId.FindIndex(n => n == Handicap);
+            // Debug.Log(gameObject.name + " anim " + Handicap + " " + id);
             if (id == -1) id = 0;
             animator.SetInteger("animationId", id);
+            return;
+
         }
+
+        if (Handicap != null) return;
+
+        if (Command != null) return;
 
         if (Movement != null && runningAnimation != Movement)
         {
