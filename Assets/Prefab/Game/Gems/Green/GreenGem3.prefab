@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1805606220790938228}
   - component: {fileID: 1805606220790938229}
   - component: {fileID: 1805606220790938230}
-  m_Layer: 0
-  m_Name: Gem
+  m_Layer: 13
+  m_Name: GreenGem3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,3 +119,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf8a8ef3a294976b05ea393515132a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: green

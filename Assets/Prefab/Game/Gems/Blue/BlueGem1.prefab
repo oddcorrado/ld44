@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3339120488798315466}
   - component: {fileID: 3339120488798315467}
   - component: {fileID: 3339120488798315464}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BlueGem1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,3 +119,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf8a8ef3a294976b05ea393515132a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: blue
