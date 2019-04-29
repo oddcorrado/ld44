@@ -11,10 +11,14 @@ public class Bag : MonoBehaviour
     private List<string> gems = new List<string>();
     private LifeManager lifeManager;
 
+    [SerializeField]
+    private ParticleSystem gemFx;
+
     // Start is called before the first frame update
     void Start()
     {
         lifeManager = GetComponent<LifeManager>();
+        gemFx.Stop();
     }
 
     public bool AddGem(string name)
@@ -23,7 +27,7 @@ public class Bag : MonoBehaviour
         gems.Add(name);
 
         uiGems.UpdateGems(gems);
-
+        gemFx.Play();
 
         return true;
     }
