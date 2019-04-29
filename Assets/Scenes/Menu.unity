@@ -255,6 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: TestRemi2
+  minLevel: 0
 --- !u!1 &454622154
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: TestRemi2
+  minLevel: 2
 --- !u!114 &490261910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,6 +941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: TestDavid
+  minLevel: 1
 --- !u!114 &1273160948
 MonoBehaviour:
   m_ObjectHideFlags: 0

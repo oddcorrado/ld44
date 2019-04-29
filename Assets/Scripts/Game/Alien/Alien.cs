@@ -16,6 +16,7 @@ public class Alien : MonoBehaviour
     public int gemTotal = 10;
     public Text gemText;
     public GameObject successPanel;
+    public int unlocks = 0;
 
     private int gemCount = 0;
 
@@ -40,6 +41,12 @@ public class Alien : MonoBehaviour
 
         gemText.text = "gems: " + gemCount + "/" + gemTotal;
 
-        if (gemCount >= gemTotal) successPanel.SetActive(true);
+        if (gemCount >= gemTotal)
+        {
+            successPanel.SetActive(true);
+            int best = PlayerPrefs.GetInt("level");
+            if (best < unlocks)
+                PlayerPrefs.SetInt("level", unlocks);
+        }
 	}
 }
