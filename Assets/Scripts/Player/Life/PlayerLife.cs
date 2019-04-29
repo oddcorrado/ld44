@@ -16,6 +16,7 @@ public class PlayerLife : LifeManager {
             if (Life <= 0)
             {
                 GetComponent<AnimationManager>().Handicap = "die";
+                gameOverPanel.SetActive(true);
                 // if (isDeactivate) gameObject.SetActive(false);
                 // else Destroy(gameObject);
             }
@@ -28,7 +29,9 @@ public class PlayerLife : LifeManager {
     private int lifeBase = 100;
     [SerializeField]
     private bool isDeactivate = false;
+
     public Text LifeText;
+    public GameObject gameOverPanel;
 
     private InputRouter input;
 
