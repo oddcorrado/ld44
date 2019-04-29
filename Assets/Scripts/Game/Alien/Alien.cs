@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Alien : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class Alien : MonoBehaviour
     }
 
     public Cure[] cures;
+    public int gemTotal = 10;
+    public Text gemText;
+    public GameObject successPanel;
+
+    private int gemCount = 0;
+
     private Dictionary<string, int> rates = new Dictionary<string, int>();
 
     void Start()
@@ -20,6 +27,7 @@ public class Alien : MonoBehaviour
         {
             rates.Add(cure.name, cure.value);
         }
+        gemText.text = "gems:" + gemCount + "/" + gemTotal;
     }
 
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -28,6 +36,10 @@ public class Alien : MonoBehaviour
 
         if (bag == null) return;
 
-        bag.EmptyBag(rates);
+        gemCount += bag.EmptyBag(rates);
+
+        gemText.text = "gems: " + gemCount + "/" + gemTotal;
+
+        if (gemCount >= gemTotal) successPanel.SetActive(true);
 	}
 }
