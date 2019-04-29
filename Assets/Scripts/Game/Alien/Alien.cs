@@ -27,7 +27,7 @@ public class Alien : MonoBehaviour
         {
             rates.Add(cure.name, cure.value);
         }
-        gemText.text = "gems:" + gemCount + "/" + gemTotal;
+        gemText.text = "gems: " + gemCount + "/" + gemTotal;
     }
 
 	private void OnTriggerEnter2D(Collider2D collision)
