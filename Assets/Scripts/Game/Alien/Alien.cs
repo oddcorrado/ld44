@@ -5,18 +5,11 @@ using UnityEngine.UI;
 
 public class Alien : MonoBehaviour
 {
-    [System.Serializable]
-    public class Cure 
-    {
-        public int value;
-        public string name;
-    }
-
-    public Cure[] cures;
     public int gemTotal = 10;
     public Text gemText;
     public GameObject successPanel;
     public int unlocks = 0;
+    public StockExchange stockExchange; 
 
     private int gemCount = 0;
 
@@ -24,11 +17,20 @@ public class Alien : MonoBehaviour
 
     void Start()
     {
-        foreach(Cure cure in cures)
-        {
-            rates.Add(cure.name, cure.value);
-        }
         gemText.text = "gems: " + gemCount + "/" + gemTotal;
+    }
+
+    private Dictionary<string, int> BuildRates()
+    {
+        Dictionary<string, int> output = new Dictionary<string, int>
+        {
+            { "red", (int)stockExchange.Red },
+            { "yellow", (int)stockExchange.Yellow },
+            { "blue", (int)stockExchange.Blue },
+            { "green", (int)stockExchange.Green }
+        };
+
+        return output;
     }
 
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -37,7 +39,7 @@ public class Alien : MonoBehaviour
 
         if (bag == null) return;
 
-        gemCount += bag.EmptyBag(rates);
+        gemCount += bag.EmptyBag(BuildRates());
 
         gemText.text = "gems: " + gemCount + "/" + gemTotal;
 
