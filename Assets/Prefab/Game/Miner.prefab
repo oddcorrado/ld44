@@ -1113,7 +1113,7 @@ MonoBehaviour:
   - jump
   - die
   - wall
-  - 
+  - air
   - 
   - 
   prefix: Miner_

@@ -91,7 +91,7 @@ public class InputRouter : MonoBehaviour {
                 A = Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.G);
                 B = Input.GetKey(KeyCode.Joystick1Button3) || Input.GetKey(KeyCode.H);
                 C = Input.GetKey(KeyCode.Joystick1Button2) || Input.GetKey(KeyCode.J);
-                J = Input.GetKey(KeyCode.Joystick1Button1) || Input.GetKey(KeyCode.Y);
+                J = Input.GetKey(KeyCode.Joystick1Button1) || Input.GetKey(KeyCode.C) || Input.GetKey(KeyCode.Space);
                 break;
             case 2:
                 A = Input.GetKey(KeyCode.Joystick2Button0) || Input.GetKey(KeyCode.V);
