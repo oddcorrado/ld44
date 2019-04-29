@@ -42,11 +42,27 @@ public class StockExchange : MonoBehaviour
         }
     }
 
+    public bool RedIsUp
+    {
+        get
+        {
+            return (red.Evaluate((Time.time + 1) % red.keys[red.length - 1].time) - red.Evaluate((Time.time) % red.keys[red.length - 1].time) > 0);
+        }
+    }
+
     public float Green
     {
         get
         {
             return green.Evaluate(Time.time % green.keys[green.length - 1].time);
+        }
+    }
+
+    public bool GreenIsUp
+    {
+        get
+        {
+            return (green.Evaluate((Time.time + 1) % green.keys[green.length - 1].time) - green.Evaluate((Time.time) % green.keys[green.length - 1].time) > 0);
         }
     }
 
@@ -58,6 +74,14 @@ public class StockExchange : MonoBehaviour
         }
     }
 
+    public bool BlueIsUp
+    {
+        get
+        {
+            return (blue.Evaluate((Time.time + 1) % blue.keys[blue.length - 1].time) - blue.Evaluate((Time.time) % blue.keys[blue.length - 1].time) > 0);
+        }
+    }
+
     public float Yellow
     {
         get
@@ -66,10 +90,24 @@ public class StockExchange : MonoBehaviour
         }
     }
 
+    public bool YellowIsUp
+    {
+        get
+        {
+            return (yellow.Evaluate((Time.time + 1) % yellow.keys[yellow.length - 1].time) - yellow.Evaluate((Time.time) % yellow.keys[yellow.length - 1].time) > 0);
+        }
+    }
+
     public Text[] redTexts;
     public Text[] greenTexts;
     public Text[] blueTexts;
     public Text[] yellowTexts;
+
+    public Indicator[] redIndicators;
+    public Indicator[] greenIndicators;
+    public Indicator[] blueIndicators;
+    public Indicator[] yellowIndicators;
+
     public GameObject ticker;
 
     // Start is called before the first frame update
@@ -85,6 +123,12 @@ public class StockExchange : MonoBehaviour
         foreach (Text t in greenTexts) t.text = "GRN " + (int)Green;
         foreach (Text t in yellowTexts) t.text = "YLW " + (int)Yellow;
         foreach (Text t in blueTexts) t.text = "BLU " + (int)Blue;
+
+        foreach (Indicator indicator in redIndicators) indicator.Market(RedIsUp);
+        foreach (Indicator indicator in greenIndicators) indicator.Market(GreenIsUp);
+        foreach (Indicator indicator in yellowIndicators) indicator.Market(YellowIsUp);
+        foreach (Indicator indicator in blueIndicators) indicator.Market(BlueIsUp);
+
 
         var x = ticker.transform.position.x;
         x -= 2;
