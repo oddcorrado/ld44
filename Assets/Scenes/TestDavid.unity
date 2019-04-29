@@ -5221,7 +5221,7 @@ GameObject:
   - component: {fileID: 490922460}
   - component: {fileID: 490922459}
   m_Layer: 5
-  m_Name: Grafitis
+  m_Name: Graffitis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
