@@ -66,10 +66,11 @@ public class StockExchange : MonoBehaviour
         }
     }
 
-    public Text textRed;
-    public Text textBlue;
-    public Text textYellow;
-    public Text textGreen;
+    public Text[] redTexts;
+    public Text[] greenTexts;
+    public Text[] blueTexts;
+    public Text[] yellowTexts;
+    public GameObject ticker;
 
     // Start is called before the first frame update
     void Start()
@@ -80,9 +81,14 @@ public class StockExchange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textRed.text = "red :" + (int)Red;
-        textBlue.text = "blue :" + (int)Blue;
-        textYellow.text = "yellow :" + (int)Yellow;
-        textGreen.text = "green :" + (int)Green;
+        foreach (Text t in redTexts) t.text = "RED " + (int)Red;
+        foreach (Text t in greenTexts) t.text = "GRN " + (int)Green;
+        foreach (Text t in yellowTexts) t.text = "YLW " + (int)Yellow;
+        foreach (Text t in blueTexts) t.text = "BLU " + (int)Blue;
+
+        var x = ticker.transform.position.x;
+        x -= 2;
+        x = x % 1600;
+        ticker.transform.position = new Vector3(x, ticker.transform.position.y, ticker.transform.position.z);
     }
 }
