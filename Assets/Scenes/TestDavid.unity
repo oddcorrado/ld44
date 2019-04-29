@@ -1758,7 +1758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 9.76, y: 4}
+  m_AnchoredPosition: {x: 6.2, y: 4.8}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92963996
@@ -1783,7 +1783,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1794,7 +1794,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Jump with space
+  m_Text: 'Jump with spacebar
 
 '
 --- !u!222 &92963997
@@ -5322,7 +5322,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 16.98, y: 5.77}
+  m_AnchoredPosition: {x: 11.6, y: 9.3}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312090862
@@ -5347,7 +5347,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5515,7 +5515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 82.94, y: 5.397}
+  m_AnchoredPosition: {x: 82.29, y: 5.89}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &325566022
@@ -5540,18 +5540,20 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 250
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Jump from higher and you will bounce higher
+  m_Text: 'The higher you fall from
+
+    the higher you will bounce'
 --- !u!222 &325566023
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9175,7 +9177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 33.95, y: 4.91}
+  m_AnchoredPosition: {x: 33.84, y: 4.91}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577078703
@@ -9200,7 +9202,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -9211,9 +9213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Watch out for spikes,
-
-    thew will hurt you'
+  m_Text: spikes hurt
 --- !u!222 &577078704
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10890,7 +10890,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Don''t steal our gem !
+  m_Text: 'Don''t steal our gems !
 
 
 '
@@ -11318,7 +11318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 130.19, y: 9.28}
+  m_AnchoredPosition: {x: 124.29, y: 8.9}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748378250
@@ -11343,7 +11343,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -11358,7 +11358,7 @@ MonoBehaviour:
 
     You can pick them up and carry up to three of them
 
-    There are four types of gems, determined by their color'
+    There are four gem colors'
 --- !u!222 &748378251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15016,6 +15016,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2075791513, guid: 1e1f668a1582743949d0ad60d59abe67, type: 3}
+      propertyPath: name
+      value: TestRemi2
+      objectReference: {fileID: 0}
+    - target: {fileID: 60136241, guid: 1e1f668a1582743949d0ad60d59abe67, type: 3}
+      propertyPath: m_Text
+      value: NEXT LEVEL
+      objectReference: {fileID: 0}
     - target: {fileID: 8731195750358758844, guid: 1e1f668a1582743949d0ad60d59abe67,
         type: 3}
       propertyPath: red.m_Curve.Array.size
@@ -18110,7 +18118,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -23194,7 +23202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.59, y: 4.69}
+  m_AnchoredPosition: {x: -0.9, y: 6.5}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498104270
@@ -23219,7 +23227,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -23230,7 +23238,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Move with the arrows
+  m_Text: 'Use arrow keys to move
 
 
 '
@@ -23276,7 +23284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 112.43, y: 10.46}
+  m_AnchoredPosition: {x: 111.48, y: 10.46}
   m_SizeDelta: {x: 19.264, y: 1.493}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501528599
@@ -23301,7 +23309,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -23559,7 +23567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 137.3, y: 36.07}
+  m_AnchoredPosition: {x: 127.19, y: 38.36}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523756989
@@ -23584,7 +23592,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -23595,9 +23603,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Your life deacreases over time \ngive the gems you collected to the alien
-    and he will regenerate you\nthe amount of life he will regenerate you is shown
-    at the bottom\nthis amout variates over time \nuse this to regain more life !"
+  m_Text: "Your life deacreases over time \nHand the gems to the alien to regenerate\nCheck
+    the gem life currency at the bottom\n"
 --- !u!222 &1523756990
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25981,7 +25988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 60.41, y: 3.7299998}
+  m_AnchoredPosition: {x: 59.1, y: 3.7299998}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648078549
@@ -26006,7 +26013,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -28434,7 +28441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 47.82, y: 3.7299998}
+  m_AnchoredPosition: {x: 47.48, y: 3.7299998}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1809027718
@@ -28459,7 +28466,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -32293,7 +32300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 69.98, y: 4}
+  m_AnchoredPosition: {x: 68.23, y: 4.34}
   m_SizeDelta: {x: 19.264, y: 1.397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126491329
@@ -32318,7 +32325,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -32329,7 +32336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Mushrooms make you bounce
+  m_Text: 'Use mushrooms to bounce
 
 '
 --- !u!222 &2126491330

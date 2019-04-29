@@ -266,7 +266,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811654302}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -280,7 +280,7 @@ Animator:
   m_GameObject: {fileID: 811654302}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1bcabbae623044d2a80fe5f471507ba9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4a21a6cd6d21b4a02918897884704b8e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
