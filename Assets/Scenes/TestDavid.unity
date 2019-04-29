@@ -8319,7 +8319,7 @@ PrefabInstance:
     - target: {fileID: 8233551977747070090, guid: 1e1f668a1582743949d0ad60d59abe67,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8233551977747070092, guid: 1e1f668a1582743949d0ad60d59abe67,
         type: 3}
@@ -8385,6 +8385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: gemTotal
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233551977747070095, guid: 1e1f668a1582743949d0ad60d59abe67,
+        type: 3}
+      propertyPath: unlocks
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 541217456, guid: 1e1f668a1582743949d0ad60d59abe67, type: 3}
       propertyPath: m_LocalPosition.z
