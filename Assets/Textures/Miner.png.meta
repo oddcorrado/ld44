@@ -37,6 +37,47 @@ TextureImporter:
     21300064: mineur 1_32
     21300066: mineur 1_33
     21300068: mineur 1_34
+    21300070: Miner_0
+    21300072: Miner_1
+    21300074: Miner_2
+    21300076: Miner_3
+    21300078: Miner_4
+    21300080: Miner_5
+    21300082: Miner_6
+    21300084: Miner_7
+    21300086: Miner_8
+    21300088: Miner_9
+    21300090: Miner_10
+    21300092: Miner_11
+    21300094: Miner_12
+    21300096: Miner_13
+    21300098: Miner_14
+    21300100: Miner_15
+    21300102: Miner_16
+    21300104: Miner_17
+    21300106: Miner_18
+    21300108: Miner_19
+    21300110: Miner_20
+    21300112: Miner_21
+    21300114: Miner_22
+    21300116: Miner_23
+    21300118: Miner_24
+    21300120: Miner_25
+    21300122: Miner_26
+    21300124: Miner_27
+    21300126: Miner_28
+    21300128: Miner_29
+    21300130: Miner_30
+    21300132: Miner_31
+    21300134: Miner_32
+    21300136: Miner_33
+    21300138: Miner_34
+    21300140: Miner_35
+    21300142: Miner_36
+    21300144: Miner_37
+    21300146: Miner_38
+    21300148: Miner_39
+    21300150: Miner_40
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -130,7 +171,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mineur 1_0
+      name: Miner_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fdaa964ba71f44daca3a15791527f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b8a01584b22b44e91ef918e8f3c291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0058884611fd18844b9aa5d3b0d6f1d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537d8687f9f56ba45a398cbd86085341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbef75b93fe2ccb4e806cd51c46d4897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30458f36e6fb5f34da4eabff6246f34f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_6
       rect:
         serializedVersion: 2
         x: 0
@@ -144,13 +305,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ddebb903a3e17f4eb8df60e02baec86
+      spriteID: cfda501f7b889ab48bfa0e2f956d4ca9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_1
+      name: Miner_7
       rect:
         serializedVersion: 2
         x: 32
@@ -164,13 +325,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510cffd0bd1493d47af98de118a3d98d
+      spriteID: d4e41eac278db814b9374bc640d81503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_2
+      name: Miner_8
       rect:
         serializedVersion: 2
         x: 64
@@ -184,13 +345,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a727634721d2b2442a595353503d0fbf
+      spriteID: a9d6ebc6286324e4daf9eae89085a818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_3
+      name: Miner_9
       rect:
         serializedVersion: 2
         x: 96
@@ -204,13 +365,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2349ed7b4903cb644be86db8ec118ae1
+      spriteID: b2cad58f723cd5b4fa24a19ac765d72c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_4
+      name: Miner_10
       rect:
         serializedVersion: 2
         x: 128
@@ -224,13 +385,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c45069665407d70489047103c24d2716
+      spriteID: ecd96524ccfff5446857f4a0e6235edb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_5
+      name: Miner_11
       rect:
         serializedVersion: 2
         x: 160
@@ -244,13 +405,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bd7e2c44fda86146898d9eb71afeb64
+      spriteID: 6e09ed4923af76848a858f3faecc187e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_6
+      name: Miner_12
       rect:
         serializedVersion: 2
         x: 0
@@ -264,13 +425,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84eb4b69230abd5419651ba4aea7a593
+      spriteID: ea5f74dd3d8131d4a8efab2763bb3997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_7
+      name: Miner_13
       rect:
         serializedVersion: 2
         x: 32
@@ -284,13 +445,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ace792a7b3ee47409dc869118b7bebd
+      spriteID: bbc37ad5270fa9544b0da59984065af0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_8
+      name: Miner_14
       rect:
         serializedVersion: 2
         x: 64
@@ -304,13 +465,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a2dd6f81f095241b1ee9202a30d158
+      spriteID: 65b38b30037905847aa29d0f2d1b8506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_9
+      name: Miner_15
       rect:
         serializedVersion: 2
         x: 96
@@ -324,13 +485,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1536d1149b0236b48ac2fed30189baef
+      spriteID: 7a0ff85b81852d14184d86034df3e639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_10
+      name: Miner_16
       rect:
         serializedVersion: 2
         x: 128
@@ -344,13 +505,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6450c175f7889484d9101df301915aa5
+      spriteID: a7ab56c7369eaa44e9d4fe8338c24f80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_11
+      name: Miner_17
       rect:
         serializedVersion: 2
         x: 160
@@ -364,13 +525,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ce780585bc6fe4e90e2f1f603d0785
+      spriteID: 264adb9451a50e84e8f1f642b1f1a3bb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_12
+      name: Miner_18
       rect:
         serializedVersion: 2
         x: 0
@@ -384,13 +545,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d04dfbe757d5b804c99d8a55caeeceec
+      spriteID: a56de3591e7c8c34d99e201bce67aa85
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_13
+      name: Miner_19
       rect:
         serializedVersion: 2
         x: 32
@@ -404,13 +565,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60e50f3ca35490146aa88088bce00599
+      spriteID: b4015d97e07ed864ca7edaa1608ed5f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_14
+      name: Miner_20
       rect:
         serializedVersion: 2
         x: 64
@@ -424,13 +585,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8fc497cb0aef148a5cdf18fd7ef246
+      spriteID: bb26611cbcc1ba64ba2c44329b178bf2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_15
+      name: Miner_21
       rect:
         serializedVersion: 2
         x: 96
@@ -444,13 +605,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62671366dbc820c429cc0a721b83a31c
+      spriteID: eb2f1115406bcac45b14c75fd4f3ecd5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_16
+      name: Miner_22
       rect:
         serializedVersion: 2
         x: 128
@@ -464,13 +625,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 752f4768a8c18c94a821439456c9351e
+      spriteID: 9b612a5c8d8cc7d43a5508cd536b611d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_17
+      name: Miner_23
       rect:
         serializedVersion: 2
         x: 160
@@ -484,13 +645,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53f8899276d6ca94680e0c029be6fa4e
+      spriteID: 7420930b1ebff8d4288794aa73b6604a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_18
+      name: Miner_24
       rect:
         serializedVersion: 2
         x: 0
@@ -504,13 +665,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 552da3f2ef9238c4798a151088129786
+      spriteID: ce38c52b8e06d224dac30b916330a35e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_19
+      name: Miner_25
       rect:
         serializedVersion: 2
         x: 32
@@ -524,13 +685,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1053640b6fa65f4dadea56be3354acc
+      spriteID: 47f2c8932da107a4e923e6c9116f705d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_20
+      name: Miner_26
       rect:
         serializedVersion: 2
         x: 64
@@ -544,13 +705,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12fa3f21579871840a3e4407cadcd47b
+      spriteID: e971a9bd5aaa1d146a1cfee8aa7d5d96
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_21
+      name: Miner_27
       rect:
         serializedVersion: 2
         x: 96
@@ -564,13 +725,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 109285f813390d4458352ce3b03dfa18
+      spriteID: 142744ef0190c9d4c9e032c86ab9f0e0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_22
+      name: Miner_28
       rect:
         serializedVersion: 2
         x: 128
@@ -584,13 +745,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fbd8f9d74dd4c44897e465caf284b1d
+      spriteID: 14ef1002d7ac356448fa5f7e6e89deab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_23
+      name: Miner_29
       rect:
         serializedVersion: 2
         x: 160
@@ -604,13 +765,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6bd9601e2d23e64f9da19343007ceae
+      spriteID: 987d7130e15dff34583db0ecabc245b4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_24
+      name: Miner_30
       rect:
         serializedVersion: 2
         x: 0
@@ -624,13 +785,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfd71976f7871f948afb864a41aedc58
+      spriteID: 554e2f47a12bb044e8d74f25221a6d9a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_25
+      name: Miner_31
       rect:
         serializedVersion: 2
         x: 32
@@ -644,13 +805,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088b58023258a3d4dbe88a35975d1278
+      spriteID: 1364df5c777f60c41998b2864de77f17
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_26
+      name: Miner_32
       rect:
         serializedVersion: 2
         x: 64
@@ -664,13 +825,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7454ae0dffc35184c8c07b1b55482c7b
+      spriteID: f1dc9f1c117694b479d00b3fc11f6b66
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_27
+      name: Miner_33
       rect:
         serializedVersion: 2
         x: 96
@@ -684,13 +845,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74dff11e1fc2f3342b0acd2cfb400aa2
+      spriteID: ead33f8fe2d802d42bbfa8fd3b892cdb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_28
+      name: Miner_34
       rect:
         serializedVersion: 2
         x: 128
@@ -704,36 +865,116 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88043d8d0fc5f0b4fa9c700023f816cf
+      spriteID: fc6d5fb8e5cfe5d43a7dbd628a6f8efc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mineur 1_29
+      name: Miner_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43489777a9cd5ad45a0c89d9a224ae85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bdd4c8188337a44a12d5a2d73b17ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639748a9eca12a94184915310d206d22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b0b1d98d38b9b48a7ecdd7f7b2721c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ecc9bf590bcf648adb912cd78d207a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_40
       rect:
         serializedVersion: 2
         x: 160
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 946a3ff174f835148a4b4591ca985a32
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mineur 1_30
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
         width: 32
         height: 32
@@ -744,87 +985,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041709ba45eb7274a88bb871f0928cdf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mineur 1_31
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e123e67adc7b3f544bdb43a69826b370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mineur 1_32
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 243b084177af5514e9ce11613b8879f3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mineur 1_33
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bec4f7699d90724bbb4ef5a60ed6a35
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mineur 1_34
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ed039a69d2f19441b203884ed6a52a5
+      spriteID: 9657c2130296d35418442d01e130d7e3
       vertices: []
       indices: 
       edges: []
