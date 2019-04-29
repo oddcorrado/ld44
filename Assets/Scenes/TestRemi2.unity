@@ -8542,6 +8542,16 @@ PrefabInstance:
       propertyPath: gemTotal
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8233551977747070095, guid: 1e1f668a1582743949d0ad60d59abe67,
+        type: 3}
+      propertyPath: unlocks
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233551977747070094, guid: 1e1f668a1582743949d0ad60d59abe67,
+        type: 3}
+      propertyPath: m_UsedByComposite
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 541217456, guid: 1e1f668a1582743949d0ad60d59abe67, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
