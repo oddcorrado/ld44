@@ -10,6 +10,12 @@ public class PlayerLife : LifeManager {
         get { return life; }
         set
         {
+            if (life - value > 2)
+            {
+                Debug.Log("blloood " + life + " " + value);
+                bloodFx.Play(); 
+            }
+                
             life = value;
             LifeText.text = ((int)life).ToString();
 
@@ -29,6 +35,8 @@ public class PlayerLife : LifeManager {
     private int lifeBase = 100;
     [SerializeField]
     private bool isDeactivate = false;
+    [SerializeField]
+    private ParticleSystem bloodFx;
 
     public Text LifeText;
     public GameObject gameOverPanel;
@@ -39,6 +47,7 @@ public class PlayerLife : LifeManager {
     {
         input = GetComponent<InputRouter>();
         Life = lifeBase;
+        bloodFx.Stop(); 
     }
 
     public override void Damage(int value, int playerId)
