@@ -28,9 +28,10 @@ public class Bag : MonoBehaviour
         return true;
     }
 
-    public void EmptyBag(Dictionary<string,int> rates)
+    public int EmptyBag(Dictionary<string,int> rates)
     {
         int totalCure = 0;
+        int count = gems.Count;
         gems.RemoveAll(gem =>
         {
             int cure = 0;
@@ -41,5 +42,6 @@ public class Bag : MonoBehaviour
 
         lifeManager.Life = Mathf.Min(lifeManager.Life + totalCure, lifeManager.lifeMax);
         uiGems.UpdateGems(gems);
+        return count;
     }
 }

@@ -113,7 +113,7 @@ RectTransform:
   - {fileID: 450893468}
   - {fileID: 1025992837289821078}
   m_Father: {fileID: 8020940063322076703}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -753,7 +753,6 @@ GameObject:
   - component: {fileID: 8020940062789717975}
   - component: {fileID: 8020940062789717972}
   - component: {fileID: 1562374978545159291}
-  - component: {fileID: 7323622444102372302}
   m_Layer: 10
   m_Name: Miner
   m_TagString: Untagged
@@ -1030,21 +1029,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.88, y: 1.5757673}
   m_EdgeRadius: 0
---- !u!114 &7323622444102372302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426053626865728139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3222aa6eff5d7497f89063ec353cd6ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeleft: 60
-  timeleftText: {fileID: 3790548787695283806}
-  successPanel: {fileID: 6367804520409294281}
 --- !u!1 &1426053627067632120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,87 +1415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Menu
---- !u!1 &4935021959383169324
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1818032203722026362}
-  - component: {fileID: 904650316534492751}
-  - component: {fileID: 3790548787695283806}
-  m_Layer: 5
-  m_Name: TextTimeleft
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1818032203722026362
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4935021959383169324}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8020940063322076703}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 725, y: 505}
-  m_SizeDelta: {x: -1550, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &904650316534492751
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4935021959383169324}
-  m_CullTransparentMesh: 0
---- !u!114 &3790548787695283806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4935021959383169324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c22ab25e2d0624a91b5e37f84e227584, type: 3}
-    m_FontSize: 115
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 283
-    m_Alignment: 2
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: '10 secs
-
-'
 --- !u!1 &6286263192316381549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,7 +1528,7 @@ RectTransform:
   - {fileID: 6417667612884794536}
   - {fileID: 8623715198343123922}
   m_Father: {fileID: 8020940063322076703}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1935,7 +1838,6 @@ RectTransform:
   m_Children:
   - {fileID: 8020940064712135778}
   - {fileID: 8020940063065191846}
-  - {fileID: 1818032203722026362}
   - {fileID: 1281415830}
   - {fileID: 1466175830164193460}
   m_Father: {fileID: 8020940063079324630}
